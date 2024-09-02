@@ -1,7 +1,7 @@
 import './Navbar.css'
 
 function Navbar() {
-	return()
+	return
 }
 
 export default Navbar

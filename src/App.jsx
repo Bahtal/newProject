@@ -1,17 +1,14 @@
 import './App.css'
-import Footer from './components/footer/Footer.jsx'
-import Header from './components/header/Header.jsx'
-import Main from './components/main/Main.jsx'
-import Navbar from './components/nav-bar/Navbar.jsx'
+import Header from "./components/header/Header"
+
 
 function App() {
+  
 
   return (
     <>
-     <Header />
-     <Navbar />
-     <Main />
-     <Footer />
+      <Header />
+        
     </>
   )
 }

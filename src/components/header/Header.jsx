@@ -11,10 +11,12 @@ function Header() {
 							<button type='submit'>O</button>
 						</form>
 					</div>
-					<div className="header__login"></div>
+					<div className="header__account">
+						<div className="account__sign">Sign In</div>
+						<div className="header__login">Login</div>
+					</div>
 			</header>
 		</>
 	)
 }
-
 export default Header
