@@ -10,12 +10,17 @@
 	align-items: center;
 }
 
-.top--image {
+.movies {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1200px;
+}
+
+.movie__cover {
+	width: max-content;
 	height: 300px;
-	width: 200px;
-	background: url('./../../assets/img/1.webp');
-	background-repeat: no-repeat;
-	background-size: cover;
 }
 
 .movie__info {

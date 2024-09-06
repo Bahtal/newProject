@@ -3,11 +3,11 @@ import './App.css'
 import Footer from './components/footer/Footer'
 import Header from "./components/header/Header"
 // import Main from "./components/main/Main"
-import Top from './components/Top/Top'
+import Top from './components/top/Top'
+
 
 
 function App() {
-  
 
   return (
     <>
@@ -15,6 +15,7 @@ function App() {
         <Header />
         {/* <Main />   */}
         <Top />
+        
         <Footer />
       </div>
 
