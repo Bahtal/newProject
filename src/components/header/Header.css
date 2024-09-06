@@ -1,7 +1,61 @@
 .header {
+	color: #fafafa;
+
+	background: linear-gradient(180deg, #000000 0, #070b1c 100%);
+	height: 70px;
+}
+
+.header__inner {
+  margin-top: 10px;
 	display: flex;
 	flex-flow: row nowrap;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 }
+
+.header__logo {
+	font-size: 40px;
+	font-weight: 900;
+}
+
+.header__search form {
+
+
+	position: relative;
+  width: 400px;
+  margin: 0 auto;
+}
+
+input, .header__button {
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}
+
+input {
+  width: 100%;
+  height: 41px;
+  background: #F9F0DA;
+  padding-left: 15px;
+}
+.header__button {
+  height: 36px;
+  width: 66px;
+  position: absolute;
+  top: 4px;
+  right: -13px;
+  background: linear-gradient(90deg, #ff5c4d 0, #ed469f 26.5%, #8341ef 75%, #3f68f9 100%);
+  cursor: pointer;
+}
+
+.header__account {
+  display: flex;
+  flex-direction: column;
+}
+
+.header__account a {
+  color: #fafafa;
+  text-decoration: none;
+}
+
 
