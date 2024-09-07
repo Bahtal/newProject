@@ -18,13 +18,6 @@ function App() {
         
         <Footer />
       </div>
-
-      {/* <Router>
-        <Switch>
-          <Route exact path="./components/Top/Top.jsx" component={Top} />
-        </Switch>
-      </Router> */}
-
     </>
   )
 }
