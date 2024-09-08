@@ -1,7 +1,7 @@
 
-
 function ShowMovies(data) {
 	const moviesEl = document.querySelector(".movies");
+	
 	
 
 	data.items.forEach((movie) => {
@@ -22,7 +22,7 @@ function ShowMovies(data) {
 						</div>
 						<div class="movie__info">
 						<div class="movie__title">${movie.nameRu}</div>
-						<div class="movie__category">${movie.genres.map((genre) => `${genre.genre}`)}</div>
+						<div class="movie__category">${movie.genres.map((genre) => `  ${genre.genre}`)}</div>
 				</div>
 			</div>
 		`;

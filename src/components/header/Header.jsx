@@ -1,6 +1,20 @@
 import Logo from '../Logo.jsx'
 import './Header.css'
 
+// const API_URL_SEARCH = "https://kinopoiskapiunofficial.tech/api/v2.1/films/search-by-keyword?keyword=";
+
+// const form = document.querySelector("form");
+// const search = document.querySelector(".header__search--input");
+
+// form.addEventListener('submit', (e) => {
+// 	e.preventDefault();
+
+// 	const apiSearchUrl = `${API_URL_SEARCH}${search.value}`
+// 	if(search.value) {
+// 		Api(apiSearchUrl)
+// 	}
+// })
+
 function Header() {
 	return(
 		<>
@@ -22,7 +36,7 @@ function Header() {
 							</div>
 							</div>
 					</div>
-
+					
 					
 			</header>
 		</>
